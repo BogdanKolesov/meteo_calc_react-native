@@ -1,19 +1,19 @@
 export const thunderList = [
     {
         title: 'Метод Вайтинга',
-        link: 'ThunderWaiting'
+        link: 'NotExist'
     },
     {
         title: 'Метод Фатеева',
-        link: 'ThunderFateev'
+        link: 'NotExist'
     },
     {
         title: 'Метод Sweat',
-        link: 'ThunderSweat'
+        link: 'NotExist'
     },
     {
         title: 'Ki, число Вайтинга',
-        link: 'Ki'
+        link: 'NotExist'
     },
     {
         title: 'Метод Бейли',
@@ -21,26 +21,26 @@ export const thunderList = [
     },
     {
         title: 'Метод Лебедевой',
-        link: 'BirdOrder'
+        link: 'NotExist'
     },
     {
         title: 'Метод Пескова',
-        link: 'BirdOrder'
+        link: 'NotExist'
     },
     {
         title: 'Метод Фауста',
-        link: 'BirdOrder'
+        link: 'NotExist'
     },
     {
         title: 'Метод Сосина',
-        link: 'BirdOrder'
+        link: 'NotExist'
     },
     {
         title: 'Прогноз града',
-        link: 'BirdOrder'
+        link: 'NotExist'
     },
     {
         title: 'Прогноз шквалов',
-        link: 'BirdOrder'
+        link: 'NotExist'
     }
 ]

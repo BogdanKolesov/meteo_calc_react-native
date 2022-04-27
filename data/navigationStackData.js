@@ -9,6 +9,11 @@ export const navigationStackData = [
         component: Home,
         options: { headerShown: false }
     },
+    {
+        name: 'NotExist',
+        component: NotExist,
+        options: { headerShown: false }
+    },
     //Данные из вкладки "Грозы"
     {
         name: 'ThunderBaily',

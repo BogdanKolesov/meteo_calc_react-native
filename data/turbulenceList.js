@@ -1,22 +1,22 @@
 export const turbulenceList = [
     {
         title: 'Интенсивность болтанки в зоне холодного фронта',
-        link: 'BirdOrder'
+        link: 'NotExist'
     },
     {
         title: 'Интенсивность болтанки на тёплом фронте',
-        link: 'BirdOrder'
+        link: 'NotExist'
     },
     {
         title: 'Интенсивность болтанки на холодном фронте',
-        link: 'BirdOrder'
+        link: 'NotExist'
     },
     {
         title: 'Орографическая болтанка',
-        link: 'BirdOrder'
+        link: 'NotExist'
     },
     {
         title: 'Болтанка в верхней тропосфере и нижней стратосфере',
-        link: 'BirdOrder'
+        link: 'NotExist'
     }
 ]
