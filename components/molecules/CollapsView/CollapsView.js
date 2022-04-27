@@ -11,7 +11,7 @@ const CollapsView = ({ collapsContent }) => {
             <CollapsViewTitle>
                 Теоретическая часть <Entypo name={collapse ? 'chevron-thin-up' : 'chevron-thin-down'} style={{ fontSize: 18, color: '#D3D3D3' }} />
             </CollapsViewTitle>
-            <CollapsContent>
+            <CollapsContent style={{ display: collapse ? 'flex' : 'none' }}>
                 {collapsContent}
             </CollapsContent>
         </CollapsViewContainer>

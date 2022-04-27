@@ -1,17 +1,26 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import { AppContainer } from '../../atoms';
-import { CalcViewTitle } from './CalcView.styles';
+import { CalcViewTitle, GoBackButton, AppCalcContainer, CalcContent } from './CalcView.styles';
+import Entypo from 'react-native-vector-icons/Entypo'
+import { AppScrollContainer, DevLogo } from '../../atoms';
+import CollapsView from '../../molecules/CollapsView/CollapsView';
 
-const CalcView = ({ content, collapsContent }) => {
+
+const CalcView = ({ content, collapsContent, title, navigation }) => {
     return (
-        <AppContainer>
+        <AppCalcContainer>
             <AppScrollContainer>
                 <DevLogo />
-                <CalcViewTitle>{content.title}</CalcViewTitle>
+                <CalcViewTitle>{title}</CalcViewTitle>
                 <CollapsView collapsContent={collapsContent} />
+                <CalcContent>
+                    {content}
+                </CalcContent>
             </AppScrollContainer>
-        </AppContainer>
+            <GoBackButton onPress={() => navigation.goBack()}>
+                <Entypo name='chevron-thin-left' style={{ fontSize: 20, color: '#000' }} />
+            </GoBackButton>
+        </AppCalcContainer>
     );
 }
 

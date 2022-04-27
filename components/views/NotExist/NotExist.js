@@ -1,7 +1,6 @@
 import React from 'react';
 import { View } from 'react-native';
 import { NotExistButtonText, NotExistContainer, NotExistGoBackButton, NotExistTitle } from './NotExist.styles';
-import { useNavigation } from '@react-navigation/native';
 import { DevLogo } from '../../atoms';
 
 const NotExist = ({ navigation }) => {

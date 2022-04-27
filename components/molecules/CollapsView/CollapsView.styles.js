@@ -5,7 +5,6 @@ export const CollapsViewContainer = styled.TouchableOpacity`
     border-width: 1px;
     border-color: #000;
     border-top-right-radius: 10px;
-    flex-direction: row;
     align-items: center;
     padding-left: 5px;
     padding-right: 5px;

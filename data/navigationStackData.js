@@ -1,5 +1,6 @@
 import Home from '../components/views/Home'
 import NotExist from '../components/views/NotExist'
+import Baily from '../components/views/Thunder/Thunder.content/Baily'
 
 
 export const navigationStackData = [
@@ -10,8 +11,8 @@ export const navigationStackData = [
     },
     //Данные из вкладки "Грозы"
     {
-        name: 'Ki',
-        component: NotExist,
+        name: 'ThunderBaily',
+        component: Baily,
         options: { headerShown: false }
     },
 
