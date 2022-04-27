@@ -14,8 +14,8 @@ const AppContainer = ({ props, children }) => {
 const Container = styled.View`
     height: 100%;
     width: 100%;
-    padding-left: 5%;
-    padding-right: 5%;
+    /* padding-left: 5%;
+    padding-right: 5%; */
     padding-top: 7%;
     background-color: #fff;
 `
