@@ -13,7 +13,7 @@ export const thunderList = [
     },
     {
         title: 'Ki, число Вайтинга',
-        link: 'ThunderKi'
+        link: 'Ki'
     },
     {
         title: 'Метод Бейли',

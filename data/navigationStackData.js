@@ -1,4 +1,5 @@
 import Home from '../components/views/Home'
+import NotExist from '../components/views/NotExist'
 
 
 export const navigationStackData = [
@@ -8,10 +9,10 @@ export const navigationStackData = [
         options: { headerShown: false }
     },
     //Данные из вкладки "Грозы"
-    // {
-    //     name: 'Ornitology',
-    //     component: Ornitology,
-    //     options: { headerShown: false }
-    // },
+    {
+        name: 'Ki',
+        component: NotExist,
+        options: { headerShown: false }
+    },
 
 ]
