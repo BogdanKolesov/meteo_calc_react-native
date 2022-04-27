@@ -19,6 +19,9 @@ const Input = styled.TextInput`
     width: 20%;
     border-color: #000;
     border-width: 1px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 `
 
 export default CalcInput;

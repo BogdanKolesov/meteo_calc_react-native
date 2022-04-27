@@ -8,16 +8,16 @@ export const thunderList = [
         link: 'ThunderFateev'
     },
     {
-        title: 'Метод Sweat',
-        link: 'NotExist'
+        title: 'Метод SWEAT',
+        link: 'ThunderSweat'
     },
     {
         title: 'Ki, число Вайтинга',
-        link: 'NotExist'
+        link: 'ThunderKi'
     },
     {
         title: 'Метод Бейли',
-        link: 'ThunderBaily'
+        link: 'NotExist'
     },
     {
         title: 'Метод Лебедевой',

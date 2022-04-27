@@ -1,15 +1,15 @@
 export const vngoList = [
     {
         title: 'Прогноз по формуле Ферреля',
-        link: 'NotExist'
+        link: 'VngoFerrel'
     },
     {
         title: 'Прогноз по формуле Ипполитова',
-        link: 'NotExist'
+        link: 'VngoIppolitov'
     },
     {
         title: 'Прогноз по формуле неизвестного автора',
-        link: 'NotExist'
+        link: 'VngoUnnamed'
     },
     {
         title: 'Прогноз фронтальной облачности',

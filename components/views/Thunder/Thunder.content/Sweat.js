@@ -70,7 +70,12 @@ const Sweat = ({ navigation }) => {
 
 
 
-        return `VT = ${vt}, CT = ${ct}, TT=${tt} SWEAT = ${s}, ${result}`
+        return `
+            VT = ${vt}, 
+            CT = ${ct}, 
+            TT=${tt} 
+            SWEAT = ${s}, 
+${result}`
     }
     let res = calcSweat()
 
@@ -90,6 +95,39 @@ const Sweat = ({ navigation }) => {
                 </CalcItem>
                 <CalcItem>
                     <CalcInput
+                        onChangeText={setTd850}
+                        value={Number(td850)}
+                    />
+                    <CalcTextContainer>
+                        <CalcText>
+                            - Точка росы на поверхности 850 ГПа
+                        </CalcText>
+                    </CalcTextContainer>
+                </CalcItem>
+                <CalcItem>
+                    <CalcInput
+                        onChangeText={setD850}
+                        value={Number(d850)}
+                    />
+                    <CalcTextContainer>
+                        <CalcText>
+                            - Направление ветра на поверхности 850 ГПа (в градусах)
+                        </CalcText>
+                    </CalcTextContainer>
+                </CalcItem>
+                <CalcItem>
+                    <CalcInput
+                        onChangeText={setF850}
+                        value={Number(f850)}
+                    />
+                    <CalcTextContainer>
+                        <CalcText>
+                            - Скорость ветра на поверхности 850 ГПа (в м/с)
+                        </CalcText>
+                    </CalcTextContainer>
+                </CalcItem>
+                <CalcItem>
+                    <CalcInput
                         onChangeText={setT500}
                         value={Number(t500)}
                     />
@@ -101,45 +139,23 @@ const Sweat = ({ navigation }) => {
                 </CalcItem>
                 <CalcItem>
                     <CalcInput
-                        onChangeText={setDeltatd850}
-                        value={deltatd850}
+                        onChangeText={setD500}
+                        value={Number(d500)}
                     />
                     <CalcTextContainer>
                         <CalcText>
-                            - Дефицит точки росы на поверхности 850 ГПа
+                            - Направление ветра на поверхности 500 ГПа (в градусах)
                         </CalcText>
                     </CalcTextContainer>
                 </CalcItem>
                 <CalcItem>
                     <CalcInput
-                        onChangeText={setDeltatd700}
-                        value={Number(deltatd700)}
+                        onChangeText={setF500}
+                        value={Number(f500)}
                     />
                     <CalcTextContainer>
                         <CalcText>
-                            - Дефицит точки росы на поверхности 700 ГПа
-                        </CalcText>
-                    </CalcTextContainer>
-                </CalcItem>
-                <CalcItem>
-                    <CalcInput
-                        onChangeText={setDeltatd500}
-                        value={deltatd500}
-                    />
-                    <CalcTextContainer>
-                        <CalcText>
-                            - Дефицит точки росы на поверхности 500 ГПа
-                        </CalcText>
-                    </CalcTextContainer>
-                </CalcItem>
-                <CalcItem>
-                    <CalcInput
-                        onChangeText={setDeltatd600}
-                        value={deltatd600}
-                    />
-                    <CalcTextContainer>
-                        <CalcText>
-                            - Дефицит точки росы на поверхности 600 ГПа
+                            - Скорость ветра на поверхности 500 ГПа (в м/с)
                         </CalcText>
                     </CalcTextContainer>
                 </CalcItem>

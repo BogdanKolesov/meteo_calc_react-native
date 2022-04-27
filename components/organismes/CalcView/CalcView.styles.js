@@ -15,7 +15,7 @@ export const GoBackButton = styled.TouchableOpacity`
     width: 40px;
     bottom: 3%;
     right: 5%;
-    border-width: 1px;
+    border-width: 1.5px;
     border-radius: 100px;
     border-color: #000;
     justify-content: center;
