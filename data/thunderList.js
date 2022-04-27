@@ -1,11 +1,11 @@
 export const thunderList = [
     {
         title: 'Метод Вайтинга',
-        link: 'NotExist'
+        link: 'ThunderWaiting'
     },
     {
         title: 'Метод Фатеева',
-        link: 'NotExist'
+        link: 'ThunderFateev'
     },
     {
         title: 'Метод Sweat',
