@@ -17,7 +17,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "meteocalc.demo.app"
     },
     "android": {
       "adaptiveIcon": {
